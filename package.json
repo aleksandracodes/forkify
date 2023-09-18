@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandracodes/forkify.git"
+  },
+  "keywords": [
+    "recipes"
+  ],
+  "author": "Aleksandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandracodes/forkify/issues"
+  },
+  "homepage": "https://github.com/aleksandracodes/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}
