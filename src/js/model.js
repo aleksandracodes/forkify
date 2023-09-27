@@ -49,6 +49,9 @@ export const loadSearchResults = async function (query) {
         image: rec.image_url,
       };
     });
+
+    // Reset page to 1 on new search
+    state.search.page = 1;
   } catch (err) {
     console.error(`${err}`);
     throw err;
