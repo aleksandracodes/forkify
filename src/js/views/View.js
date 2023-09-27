@@ -17,8 +17,6 @@ export default class View {
 
   // Method for updating the DOM only in places where the text or the attributes change
   update(data) {
-    if (!data || (Array.isArray(data) && data.length === 0))
-      return this.renderError();
     this._data = data;
     const newMarkup = this._generateMarkup();
 
