@@ -122,14 +122,13 @@
         </div>
 
         <p class="copyright">
-          &copy; Copyright by
+          Created by Aleksandra as part of The Complete JavaScript Course with
           <a
             class="twitter-link"
             target="_blank"
             href="https://twitter.com/jonasschmedtman"
             >Jonas Schmedtmann</a
-          >. Use for learning or your portfolio. Don't use to teach. Don't claim
-          as your own.
+          >
         </p>
       </div>
 
@@ -263,24 +262,44 @@
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
           <label>Title</label>
-          <input value="TES17T" required name="title" type="text" />
+          <input required name="title" type="text" placeholder="Recipe title" />
           <label>URL</label>
-          <input value="TEST17" required name="sourceUrl" type="text" />
+          <input
+            placeholder="Recipe URL"
+            required
+            name="sourceUrl"
+            type="text"
+          />
           <label>Image URL</label>
-          <input value="TEST17" required name="image" type="text" />
+          <input required name="image" type="text" placeholder="Image URL" />
           <label>Publisher</label>
-          <input value="TEST17" required name="publisher" type="text" />
+          <input
+            required
+            name="publisher"
+            type="text"
+            placeholder="Publisher"
+          />
           <label>Prep time</label>
-          <input value="23" required name="cookingTime" type="number" />
+          <input
+            required
+            name="cookingTime"
+            type="number"
+            placeholder="Time in minutes"
+          />
           <label>Servings</label>
-          <input value="23" required name="servings" type="number" />
+          <input
+            required
+            name="servings"
+            type="number"
+            placeholder="Number of servings"
+          />
         </div>
 
         <div class="upload__column">
           <h3 class="upload__heading">Ingredients</h3>
           <label>Ingredient 1</label>
           <input
-            value="0.5,kg,Rice"
+            value=""
             type="text"
             required
             name="ingredient-1"
@@ -288,14 +307,14 @@
           />
           <label>Ingredient 2</label>
           <input
-            value="1,,Avocado"
+            value=""
             type="text"
             name="ingredient-2"
             placeholder="Format: 'Quantity,Unit,Description'"
           />
           <label>Ingredient 3</label>
           <input
-            value=",,salt"
+            value=""
             type="text"
             name="ingredient-3"
             placeholder="Format: 'Quantity,Unit,Description'"
